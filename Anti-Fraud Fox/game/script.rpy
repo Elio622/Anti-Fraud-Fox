@@ -13,7 +13,7 @@ label splashscreen:
 ## 角色定义（白字 + 黑描边，仿 ForbiddenClaims 风格）
 define mc = Character("阿狐", who_color="#ffffff", who_outlines=[(2, "#000000", 0, 0)], image="mc")
 define think = Character("阿狐", who_color="#ffffff", who_outlines=[(2, "#000000", 0, 0)], image="mc", what_prefix="（", what_suffix="）")
-define fraud = Character("假客服", who_color="#ffffff", who_outlines=[(2, "#000000", 0, 0)], image="fraud")
+define fraud = Character("客服", who_color="#ffffff", who_outlines=[(2, "#000000", 0, 0)], image="fraud")
 define mom = Character("妈妈", who_color="#ffffff", who_outlines=[(2, "#000000", 0, 0)], image="mom")
 define dad = Character("爸爸", who_color="#ffffff", who_outlines=[(2, "#000000", 0, 0)], image="dad")
 define teacher = Character("老师", who_color="#ffffff", who_outlines=[(2, "#000000", 0, 0)], image="teacher")
@@ -57,7 +57,7 @@ image side mc sad = "images/mc_sad.png"
 image side mc confused = "images/mc_confused.png"
 
 ## 其他角色的表情立绘（已抠透明底）
-## 假客服（浣熊诈骗犯）
+## 客服（浣熊诈骗犯）
 image side fraud = "images/fraud_normal.png"
 image side fraud normal = "images/fraud_normal.png"
 image side fraud serious = "images/fraud_serious.png"
