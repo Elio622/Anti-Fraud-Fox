@@ -1,0 +1,8 @@
+# 打包发布产物（体积超过 GitHub 100MB 限制，不上传）
+发布版/
+
+# Ren'Py 运行自动生成的文件
+*.rpyc
+反诈狐/game/cache/
+反诈狐/game/saves/
+log.txt
