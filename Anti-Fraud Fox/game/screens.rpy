@@ -563,7 +563,7 @@ screen about():
 
             text gui.about
 
-            text _("\nMade with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]")
+            text _("\n使用 {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] 引擎制作")
             null height 15
             text _("[renpy.license!t]") size 20
 
@@ -649,7 +649,7 @@ screen file_slots(title):
 
                         add FileScreenshot(slot) xalign 0.5
 
-                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                        text FileTime(slot, format=_("{#file_time}%Y年%m月%d日 %H:%M"), empty=_("无存档")):
                             style "slot_time_text"
 
                         text FileSaveName(slot):
@@ -756,32 +756,13 @@ screen preferences():
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
 
-#begin language_picker
-
                 vbox:
                     style_prefix "radio"
                     label _("语言")
 
-                    textbutton "English" text_font "DejaVuSans.ttf" action Language(None)
-                    textbutton "Česky" text_font "DejaVuSans.ttf" action Language("czech")
-                    textbutton "Dansk" text_font "DejaVuSans.ttf" action Language("danish")
-                    textbutton "Français" text_font "DejaVuSans.ttf" action Language("french")
-                    textbutton "Italiano" text_font "DejaVuSans.ttf" action Language("italian")
-                    textbutton "Bahasa Melayu" text_font "DejaVuSans.ttf" action Language("malay")
-                    textbutton "Русский" text_font "DejaVuSans.ttf" action Language("russian")
+                    textbutton "简体中文" action Language("schinese")
+                    textbutton "English" text_font "DejaVuSans.ttf" action Language("english")
 
-                vbox:
-                    style_prefix "radio"
-                    label _(" ")
-
-                    textbutton "Español" text_font "DejaVuSans.ttf" action Language("spanish")
-                    textbutton "Українська" text_font "DejaVuSans.ttf" action Language("ukrainian")
-                    textbutton "日本語" text_font "SourceHanSansLite.ttf" action Language("japanese")
-                    textbutton "한국어" text_font "SourceHanSansLite.ttf" action Language("korean")
-                    textbutton "简体中文" text_font "SourceHanSansLite.ttf" action Language("schinese")
-                    textbutton "繁體中文" text_font "SourceHanSansLite.ttf" action Language("tchinese")
-
-#end language_picker
 
             null height (4 * gui.pref_spacing)
 
@@ -1015,11 +996,11 @@ screen help():
 
             hbox:
 
-                textbutton _("Keyboard") action SetScreenVariable("device", "keyboard")
-                textbutton _("Mouse") action SetScreenVariable("device", "mouse")
+                textbutton _("键盘") action SetScreenVariable("device", "keyboard")
+                textbutton _("鼠标") action SetScreenVariable("device", "mouse")
 
                 if GamepadExists():
-                    textbutton _("Gamepad") action SetScreenVariable("device", "gamepad")
+                    textbutton _("游戏手柄") action SetScreenVariable("device", "gamepad")
 
             if device == "keyboard":
                 use keyboard_help
@@ -1032,104 +1013,104 @@ screen help():
 screen keyboard_help():
 
     hbox:
-        label _("Enter")
-        text _("Advances dialogue and activates the interface.")
+        label _("回车")
+        text _("推进对话并激活界面。")
 
     hbox:
-        label _("Space")
-        text _("Advances dialogue without selecting choices.")
+        label _("空格")
+        text _("在没有选项的情况下推进对话。")
 
     hbox:
-        label _("Arrow Keys")
-        text _("Navigate the interface.")
+        label _("方向键")
+        text _("导航界面。")
 
     hbox:
-        label _("Escape")
-        text _("Accesses the game menu.")
+        label _("Esc")
+        text _("进入游戏菜单。")
 
     hbox:
         label _("Ctrl")
-        text _("Skips dialogue while held down.")
+        text _("按住时跳过对话。")
 
     hbox:
         label _("Tab")
-        text _("Toggles dialogue skipping.")
+        text _("切换对话跳过。")
 
     hbox:
         label _("Page Up")
-        text _("Rolls back to earlier dialogue.")
+        text _("回到前面的对话。")
 
     hbox:
         label _("Page Down")
-        text _("Rolls forward to later dialogue.")
+        text _("转到后面的对话。")
 
     hbox:
         label "H"
-        text _("Hides the user interface.")
+        text _("隐藏用户界面。")
 
     hbox:
         label "S"
-        text _("Takes a screenshot.")
+        text _("截图。")
 
     hbox:
         label "V"
-        text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
+        text _("切换无障碍{a=https://www.renpy.org/l/voicing}自动语音{/a}。")
 
     hbox:
         label "Shift+A"
-        text _("Opens the accessibility menu.")
+        text _("打开无障碍菜单。")
 
 
 screen mouse_help():
 
     hbox:
-        label _("Left Click")
-        text _("Advances dialogue and activates the interface.")
+        label _("左键")
+        text _("推进对话并激活界面。")
 
     hbox:
-        label _("Middle Click")
-        text _("Hides the user interface.")
+        label _("中键")
+        text _("隐藏用户界面。")
 
     hbox:
-        label _("Right Click")
-        text _("Accesses the game menu.")
+        label _("右键")
+        text _("进入游戏菜单。")
 
     hbox:
-        label _("Mouse Wheel Up")
-        text _("Rolls back to earlier dialogue.")
+        label _("鼠标滚轮向上")
+        text _("回到前面的对话。")
 
     hbox:
-        label _("Mouse Wheel Down")
-        text _("Rolls forward to later dialogue.")
+        label _("鼠标滚轮向下")
+        text _("转到后面的对话。")
 
 
 screen gamepad_help():
 
     hbox:
-        label _("Right Trigger\nA/Bottom Button")
-        text _("Advances dialogue and activates the interface.")
+        label _("右触发器\nA/下 键")
+        text _("推进对话并激活界面。")
 
     hbox:
-        label _("Left Trigger\nLeft Shoulder")
-        text _("Rolls back to earlier dialogue.")
+        label _("左触发器\n左肩")
+        text _("回到前面的对话。")
 
     hbox:
-        label _("Right Shoulder")
-        text _("Rolls forward to later dialogue.")
+        label _("右肩")
+        text _("转到后面的对话。")
 
     hbox:
-        label _("D-Pad, Sticks")
-        text _("Navigate the interface.")
+        label _("十字键、摇杆")
+        text _("导航界面。")
 
     hbox:
-        label _("Start, Guide")
-        text _("Accesses the game menu.")
+        label _("Start、Guide 键")
+        text _("进入游戏菜单。")
 
     hbox:
-        label _("Y/Top Button")
-        text _("Hides the user interface.")
+        label _("Y/上 键")
+        text _("隐藏用户界面。")
 
-    textbutton _("Calibrate") action GamepadCalibrate()
+    textbutton _("校准") action GamepadCalibrate()
 
 
 style help_button is gui_button
@@ -1459,10 +1440,10 @@ screen quick_menu():
         xalign 0.5
         yalign 1.0
 
-        textbutton _("Back") action Rollback()
-        textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-        textbutton _("Auto") action Preference("auto-forward", "toggle")
-        textbutton _("Menu") action ShowMenu()
+        textbutton _("回退") action Rollback()
+        textbutton _("快进") action Skip() alternate Skip(fast=True, confirm=True)
+        textbutton _("自动") action Preference("auto-forward", "toggle")
+        textbutton _("菜单") action ShowMenu()
 
 
 style window:
@@ -1528,14 +1509,14 @@ screen level_select():
         ypos 26
         spacing 6
 
-        text "选择关卡":
+        text _("选择关卡"):
             xalign 0.5
             size 54
             bold True
             color "#ffffff"
             outlines [(3, "#0a3d62", 0, 0), (1, "#000000", 0, 0)]
 
-        text "已解锁至第 [persistent.unlocked] 关 · 通关越多星级越高":
+        text _("已解锁至第 [persistent.unlocked] 关 · 通关越多星级越高"):
             xalign 0.5
             size 21
             color "#eaf4ff"
@@ -1561,12 +1542,12 @@ screen level_select():
                     vbox:
                         xalign 0.5
                         yalign 0.5
-                        text "第 [i] 关":
+                        text _("第 [i] 关"):
                             xalign 0.5
                             size 23
                             color "#ffffff"
                             outlines [(1, "#000000", 0, 0)]
-                        text CHAPTER_NAMES[i-1]:
+                        text __(CHAPTER_NAMES[i-1]):
                             xalign 0.5
                             size 16
                             color "#d9e9ff"
@@ -1590,12 +1571,12 @@ screen level_select():
                             xalign 0.5
                             size 23
                             color "#8a8a8a"
-                        text "未解锁":
+                        text _("未解锁"):
                             xalign 0.5
                             size 16
                             color "#6f6f6f"
 
-    textbutton "返回主菜单":
+    textbutton _("返回主菜单"):
         xalign 0.5
         yalign 0.93
         style "menu_button"
@@ -1615,7 +1596,7 @@ screen level_clear(chapter, stars, tip):
     else:
         add "bg clear1"
 
-    textbutton "返回选关":
+    textbutton _("返回选关"):
         xalign 0.5
         yalign 0.90
         style "menu_button"
@@ -1635,5 +1616,5 @@ screen level_fail(chapter, tip):
         yalign 0.90
         spacing 50
 
-        textbutton "重新挑战" style "menu_button" action Return("retry")
-        textbutton "返回选关" style "menu_button" action Return("back")
+        textbutton _("重新挑战") style "menu_button" action Return("retry")
+        textbutton _("返回选关") style "menu_button" action Return("back")

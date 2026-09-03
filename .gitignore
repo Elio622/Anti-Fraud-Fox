@@ -6,6 +6,8 @@
 Anti-Fraud Fox/game/cache/
 Anti-Fraud Fox/game/saves/
 log.txt
+errors.txt
+traceback.txt
 
 # 开发原始资料与其它文件（不上传 GitHub）
 关卡剧本/

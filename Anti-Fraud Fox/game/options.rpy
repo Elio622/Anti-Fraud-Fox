@@ -26,6 +26,22 @@ define gui.show_name = False
 define config.version = "1.0"
 
 
+## 界面语言：首次运行默认简体中文；玩家可在设置中切换为 English，
+## 选择会持久保存。仅在首次运行（或重置 persistent）时应用该默认值。
+
+define config.default_language = "schinese"
+
+
+## 老存档的 persistent 没有语言默认记录：若玩家从未选择过语言（_preferences.language
+## 为 None），则把界面语言初始化为简体中文。新玩家由上面的
+## config.default_language 处理；玩家手动切换后会持久保存，不受此影响。
+
+init python:
+    if not getattr(persistent, "_antifraud_lang_init", False) and _preferences.language is None:
+        persistent._antifraud_lang_init = True
+        _preferences.language = "schinese"
+
+
 ## Text that is placed on the game's about screen. To insert a blank line
 ## between paragraphs, write \n\n.
 

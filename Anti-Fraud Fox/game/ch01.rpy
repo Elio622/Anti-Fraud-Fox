@@ -231,6 +231,8 @@ label ch1_C3:
     call screen level_fail(1, l1_tip)
     $ quick_menu = True
     if _return == "retry":
+        # 重新挑战时清空上一轮的对话历史，不残留上次尝试的内容
+        $ _history_list = []
         jump ch1
     else:
         jump select_level

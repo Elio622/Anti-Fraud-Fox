@@ -156,6 +156,8 @@ label select_level:
     $ quick_menu = True
     if _level is None:
         return
+    # 进入新关卡前清空对话历史，避免上一关的对话残留到下一关（重试同理）
+    $ _history_list = []
     jump expression "ch%d" % _level
 
 
