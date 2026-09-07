@@ -310,3 +310,67 @@ translate english strings:
     old "菜单"
     new "Menu"
 
+# TODO: Translation updated at 2026-09-06 14:17
+
+translate english strings:
+
+    # game/screens.rpy:562
+    old "[config.version!t]\n"
+    new "[config.version!t]\n"
+
+    # game/screens.rpy:568
+    old "[renpy.license!t]"
+    new "[renpy.license!t]"
+
+    # game/screens.rpy:669
+    old "<"
+    new "<"
+
+    # game/screens.rpy:673
+    old "{#auto_page}A"
+    new "{#auto_page}A"
+
+    # game/screens.rpy:676
+    old "{#quick_page}Q"
+    new "{#quick_page}Q"
+
+    # game/screens.rpy:682
+    old ">"
+    new ">"
+
+# TODO: Translation updated at 2026-09-06 20:16
+
+translate english strings:
+
+    # game/screens.rpy:761
+    old "语言"
+    new "语言"
+
+    # game/screens.rpy:1512
+    old "选择关卡"
+    new "选择关卡"
+
+    # game/screens.rpy:1519
+    old "已解锁至第 [persistent.unlocked] 关 · 通关越多星级越高"
+    new "已解锁至第 [persistent.unlocked] 关 · 通关越多星级越高"
+
+    # game/screens.rpy:1545
+    old "第 [i] 关"
+    new "第 [i] 关"
+
+    # game/screens.rpy:1574
+    old "未解锁"
+    new "未解锁"
+
+    # game/screens.rpy:1579
+    old "返回主菜单"
+    new "返回主菜单"
+
+    # game/screens.rpy:1599
+    old "返回选关"
+    new "返回选关"
+
+    # game/screens.rpy:1619
+    old "重新挑战"
+    new "重新挑战"
+

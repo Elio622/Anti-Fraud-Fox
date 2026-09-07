@@ -1086,3 +1086,187 @@ translate english strings:
     old "Parsing the script failed."
     new "Parsing the script failed."
 
+# TODO: Translation updated at 2026-09-06 14:17
+
+translate english strings:
+
+    # renpy/common/00action_other.rpy:416
+    old "Language [text]"
+    new "Language [text]"
+
+    # renpy/common/00action_other.rpy:786
+    old "Open [text] directory."
+    new "Open [text] directory."
+
+    # renpy/common/00director.rpy:712
+    old "The interactive director is not enabled here."
+    new "The interactive director is not enabled here."
+
+    # renpy/common/00director.rpy:1512
+    old "⬆"
+    new "⬆"
+
+    # renpy/common/00director.rpy:1518
+    old "⬇"
+    new "⬇"
+
+    # renpy/common/00director.rpy:1582
+    old "Done"
+    new "Done"
+
+    # renpy/common/00director.rpy:1592
+    old "(statement)"
+    new "(statement)"
+
+    # renpy/common/00director.rpy:1593
+    old "(tag)"
+    new "(tag)"
+
+    # renpy/common/00director.rpy:1594
+    old "(attributes)"
+    new "(attributes)"
+
+    # renpy/common/00director.rpy:1595
+    old "(transform)"
+    new "(transform)"
+
+    # renpy/common/00director.rpy:1620
+    old "(transition)"
+    new "(transition)"
+
+    # renpy/common/00director.rpy:1632
+    old "(channel)"
+    new "(channel)"
+
+    # renpy/common/00director.rpy:1633
+    old "(filename)"
+    new "(filename)"
+
+    # renpy/common/00director.rpy:1662
+    old "Change"
+    new "Change"
+
+    # renpy/common/00director.rpy:1664
+    old "Add"
+    new "Add"
+
+    # renpy/common/00director.rpy:1667
+    old "Cancel"
+    new "Cancel"
+
+    # renpy/common/00director.rpy:1670
+    old "Remove"
+    new "Remove"
+
+    # renpy/common/00director.rpy:1705
+    old "Statement:"
+    new "Statement:"
+
+    # renpy/common/00director.rpy:1726
+    old "Tag:"
+    new "Tag:"
+
+    # renpy/common/00director.rpy:1742
+    old "Attributes:"
+    new "Attributes:"
+
+    # renpy/common/00director.rpy:1753
+    old "Click to toggle attribute, right click to toggle negative attribute."
+    new "Click to toggle attribute, right click to toggle negative attribute."
+
+    # renpy/common/00director.rpy:1765
+    old "Transforms:"
+    new "Transforms:"
+
+    # renpy/common/00director.rpy:1776
+    old "Click to set transform, right click to add to transform list."
+    new "Click to set transform, right click to add to transform list."
+
+    # renpy/common/00director.rpy:1777
+    old "Customize director.transforms to add more transforms."
+    new "Customize director.transforms to add more transforms."
+
+    # renpy/common/00director.rpy:1789
+    old "Behind:"
+    new "Behind:"
+
+    # renpy/common/00director.rpy:1800
+    old "Click to set, right click to add to behind list."
+    new "Click to set, right click to add to behind list."
+
+    # renpy/common/00director.rpy:1812
+    old "Transition:"
+    new "Transition:"
+
+    # renpy/common/00director.rpy:1822
+    old "Click to set."
+    new "Click to set."
+
+    # renpy/common/00director.rpy:1823
+    old "Customize director.transitions to add more transitions."
+    new "Customize director.transitions to add more transitions."
+
+    # renpy/common/00director.rpy:1835
+    old "Channel:"
+    new "Channel:"
+
+    # renpy/common/00director.rpy:1846
+    old "Customize director.audio_channels to add more channels."
+    new "Customize director.audio_channels to add more channels."
+
+    # renpy/common/00director.rpy:1858
+    old "Audio Filename:"
+    new "Audio Filename:"
+
+    # renpy/common/00gui.rpy:448
+    old "Are you sure?"
+    new "Are you sure?"
+
+    # renpy/common/00gui.rpy:449
+    old "Are you sure you want to delete this save?"
+    new "Are you sure you want to delete this save?"
+
+    # renpy/common/00gui.rpy:450
+    old "Are you sure you want to overwrite your save?"
+    new "Are you sure you want to overwrite your save?"
+
+    # renpy/common/00gui.rpy:451
+    old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+    new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+
+    # renpy/common/00gui.rpy:452
+    old "Are you sure you want to quit?"
+    new "Are you sure you want to quit?"
+
+    # renpy/common/00gui.rpy:453
+    old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+    new "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+
+    # renpy/common/00gui.rpy:454
+    old "Are you sure you want to continue where you left off?"
+    new "Are you sure you want to continue where you left off?"
+
+    # renpy/common/00gui.rpy:455
+    old "Are you sure you want to end the replay?"
+    new "Are you sure you want to end the replay?"
+
+    # renpy/common/00gui.rpy:456
+    old "Are you sure you want to begin skipping?"
+    new "Are you sure you want to begin skipping?"
+
+    # renpy/common/00gui.rpy:457
+    old "Are you sure you want to skip to the next choice?"
+    new "Are you sure you want to skip to the next choice?"
+
+    # renpy/common/00gui.rpy:458
+    old "Are you sure you want to skip unseen dialogue to the next choice?"
+    new "Are you sure you want to skip unseen dialogue to the next choice?"
+
+    # renpy/common/00gui.rpy:459
+    old "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
+    new "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
+
+    # renpy/common/00gui.rpy:460
+    old "Do you trust the device the save was created on? You should only choose yes if you are the device's sole user."
+    new "Do you trust the device the save was created on? You should only choose yes if you are the device's sole user."
+

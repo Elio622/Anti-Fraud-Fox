@@ -85,13 +85,15 @@ image side dad sad = "images/dad_sad.png"
 image side dad confused = "images/dad_confused.png"
 
 ## 老师（猫头鹰老师）
-image side teacher = "images/teacher_normal.png"
-image side teacher normal = "images/teacher_normal.png"
-image side teacher serious = "images/teacher_serious.png"
-image side teacher laugh = "images/teacher_laugh.png"
-image side teacher worried = "images/teacher_worried.png"
-image side teacher sad = "images/teacher_sad.png"
-image side teacher suspicious = "images/teacher_suspicious.png"
+## 翅膀展开较宽（原图 2175px），zoom 0.84 时屏显约 155px、右缘 x≈255，仍压住名字框（x=240 起）并逼近正文左界 268；
+## 再降至 zoom 0.70：屏显约 129px、右缘 x≈229，完全让出名字框与对话正文（正文左界 x=268）。
+image side teacher = Transform("images/teacher_normal.png", zoom=0.70)
+image side teacher normal = Transform("images/teacher_normal.png", zoom=0.70)
+image side teacher serious = Transform("images/teacher_serious.png", zoom=0.70)
+image side teacher laugh = Transform("images/teacher_laugh.png", zoom=0.70)
+image side teacher worried = Transform("images/teacher_worried.png", zoom=0.70)
+image side teacher sad = Transform("images/teacher_sad.png", zoom=0.70)
+image side teacher suspicious = Transform("images/teacher_suspicious.png", zoom=0.70)
 
 ## 反诈警察（狗狗警长）
 image side police = "images/police_normal.png"
@@ -101,6 +103,18 @@ image side police laugh = "images/police_laugh.png"
 image side police sad = "images/police_sad.png"
 image side police suspicious = "images/police_suspicious.png"
 image side police confused = "images/police_confused.png"
+
+## 小兔（阿狐的同学，ch03 冒充同学案受害人）
+## 小兔耳朵展开特别宽（原图 2265px），附加 zoom 0.81 缩小屏显宽度，
+## 使其右缘不超过对话文本左界（x=268），避免遮挡文字。
+image side rabbit = Transform("images/rabbit.png", zoom=0.81)
+image side rabbit normal = Transform("images/rabbit_normal.png", zoom=0.81)
+image side rabbit serious = Transform("images/rabbit_serious.png", zoom=0.81)
+image side rabbit laugh = Transform("images/rabbit_laugh.png", zoom=0.81)
+image side rabbit worried = Transform("images/rabbit_worried.png", zoom=0.81)
+image side rabbit sad = Transform("images/rabbit_sad.png", zoom=0.81)
+image side rabbit suspicious = Transform("images/rabbit_suspicious.png", zoom=0.81)
+image side rabbit confused = Transform("images/rabbit_confused.png", zoom=0.81)
 
 
 ## 对话框左侧立绘（缩小、底部对齐）
@@ -161,59 +175,8 @@ label select_level:
     jump expression "ch%d" % _level
 
 
-## 第 2-15 关占位（当前仅第 1 关有内容，其余顺序解锁后待填）
+## 第 2 关占位（第 1、3~15 关已有剧本；占位关按 1 星通过，保证关卡链可以继续解锁）
 label ch2:
+    $ clear_chapter(2, 1)
     n "第 2 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch3:
-    n "第 3 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch4:
-    n "第 4 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch5:
-    n "第 5 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch6:
-    n "第 6 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch7:
-    n "第 7 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch8:
-    n "第 8 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch9:
-    n "第 9 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch10:
-    n "第 10 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch11:
-    n "第 11 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch12:
-    n "第 12 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch13:
-    n "第 13 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch14:
-    n "第 14 关还在开发中，敬请期待！"
-    jump select_level
-
-label ch15:
-    n "第 15 关还在开发中，敬请期待！"
     jump select_level

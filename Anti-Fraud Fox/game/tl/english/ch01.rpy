@@ -94,7 +94,7 @@ translate english ch1_B_759d53b8:
 translate english ch1_B_75fe6a84:
 
     # fraud laugh "百分百真实！专门给没有零花钱的小学生准备的福利，不用充值、不用花钱，只需要简单登记一下信息就可以秒到账！好多你们学校的同学都领完了，你看这是大家的到账截图！"
-    fraud laugh "100% real! This is a special reward for kids with no spending money — no recharge, no spending, just a quick info check and it arrives instantly! A bunch of kids from your school already got theirs. Look — here are the screenshots!"
+    fraud laugh "100%% real! This is a special reward for kids with no spending money — no recharge, no spending, just a quick info check and it arrives instantly! A bunch of kids from your school already got theirs. Look — here are the screenshots!"
 
 # game/ch01.rpy:64
 translate english ch1_B_e47fa3f3:
@@ -370,7 +370,7 @@ translate english ch1_C3_575e88b2:
 translate english ch1_C3_d57a7775:
 
     # police serious "小朋友一定要记住！任何索要游戏密码、手机验证码的免费福利，百分百是诈骗！游戏官方永远不会私下索要你的私密账号信息。贪图免费道具，最后只会丢失账号和个人信息。"
-    police serious "Kids, remember this! Any free reward that asks for your game password or phone verification code is 100% a scam! The official team will never privately ask for your private account details. Wanting free stuff just ends up costing you your account and personal info."
+    police serious "Kids, remember this! Any free reward that asks for your game password or phone verification code is 100%% a scam! The official team will never privately ask for your private account details. Wanting free stuff just ends up costing you your account and personal info."
 
 translate english strings:
 
