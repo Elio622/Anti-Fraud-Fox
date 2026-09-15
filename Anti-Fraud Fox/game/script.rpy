@@ -164,6 +164,8 @@ label start:
 
 
 label select_level:
+    if renpy.music.get_playing() != "audio/bgm_title.mp3":
+        play music "audio/bgm_title.mp3" fadein 1.0 fadeout 1.0
     $ quick_menu = False
     window hide
     $ _level = renpy.call_screen("level_select")

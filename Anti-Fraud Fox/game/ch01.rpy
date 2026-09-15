@@ -6,6 +6,7 @@ define l1_tip = "游戏福利多陷阱，私信免费不可信，不填密码不
 
 
 label ch1:
+    play music "audio/bgm_calm.mp3" fadein 1.0 fadeout 1.0
 
     # === 前置剧情 ===
     scene l1_bedroom_play
@@ -23,6 +24,7 @@ label ch1:
     fraud laugh "同学你好！系统检测到你是长期活跃优质玩家！本周末开启学生专属免费福利活动，绝版限定皮肤+1000点券全程0元领取，不充值、不花钱，仅限未成年学生！"
     fraud laugh "名额仅剩最后3位，我专门为你保留了通道，错过永久绝版！"
 
+    play music "audio/bgm_suspect.mp3" fadein 1.0 fadeout 1.0
     menu:
         "直接拒绝好友申请，拉黑并举报对方账号":
             jump ch1_A
@@ -42,12 +44,16 @@ label ch1_A:
     scene l1_restore
     n "陌生私信消失，游戏界面恢复干净，无任何骚扰。"
 
+    play music "audio/bgm_relief.mp3" fadein 1.0 fadeout 1.0
     scene l1_police
     police laugh "小朋友太棒了！正规游戏官方的所有福利，只会发布在游戏官方活动页面，任何私人私信、陌生客服私聊送皮肤、送点券，全部都是诈骗陷阱。不贪心、不搭理、直接举报，就是保护自己最好的方式！"
 
     $ clear_chapter(1, 3)
     $ quick_menu = False
+    stop music fadeout 0.5
+    play sound "audio/se_win.wav"
     call screen level_clear(1, 3, l1_tip)
+    stop sound
     $ quick_menu = True
     jump select_level
 
@@ -83,12 +89,16 @@ label ch1_B1:
     mom serious "宝贝，这是专门骗小朋友的骗局哦。游戏官方不会私下找人送皮肤，这些截图都是骗子伪造的。遇到这种陌生免费福利，一定不能自己乱操作，先来问爸爸妈妈就对了。"
     n "妈妈指导阿狐删除链接、举报账号、清理陌生私信。"
 
+    play music "audio/bgm_relief.mp3" fadein 1.0 fadeout 1.0
     scene l1_police
     police laugh "遇到陌生福利不慌张，先停顿、不操作、问家长，这是中小学生最靠谱的反诈方式！你做得非常优秀！"
 
     $ clear_chapter(1, 3)
     $ quick_menu = False
+    stop music fadeout 0.5
+    play sound "audio/se_win.wav"
     call screen level_clear(1, 3, l1_tip)
+    stop sound
     $ quick_menu = True
     jump select_level
 
@@ -103,12 +113,16 @@ label ch1_B2:
     think serious "不对，这是浏览器外面的网页，肯定不是官方，我得赶紧告诉妈妈！"
     mc serious "这个页面不是官方的，不对劲，我要告诉妈妈！"
 
+    play music "audio/bgm_relief.mp3" fadein 1.0 fadeout 1.0
     scene l1_police
     police serious "陌生外链都是骗子制作的钓鱼假页面，专门盗取小朋友的账号和个人信息。你能够及时发现异常、立刻停止操作，成功守住了自己的账号安全！"
 
     $ clear_chapter(1, 2)
     $ quick_menu = False
+    stop music fadeout 0.5
+    play sound "audio/se_flat.wav"
     call screen level_clear(1, 2, l1_tip)
+    stop sound
     $ quick_menu = True
     jump select_level
 
@@ -127,12 +141,16 @@ label ch1_B3:
     scene l1_find_mom
     n "阿狐立刻退出页面，不再回复，拿着手机找到家长说明情况。家长第一时间修改游戏密码，屏蔽陌生骚扰。"
 
+    play music "audio/bgm_relief.mp3" fadein 1.0 fadeout 1.0
     scene l1_police
     police serious "随意填写账号和手机号，会造成个人信息泄露，引来后续诈骗和骚扰。好在你及时醒悟、终止操作，没有造成更大的损失！"
 
     $ clear_chapter(1, 1)
     $ quick_menu = False
+    stop music fadeout 0.5
+    play sound "audio/se_flat.wav"
     call screen level_clear(1, 1, l1_tip)
+    stop sound
     $ quick_menu = True
     jump select_level
 
@@ -171,12 +189,16 @@ label ch1_C1:
 
     mom laugh "你能抵住诱惑、及时醒悟，真的非常棒！"
 
+    play music "audio/bgm_relief.mp3" fadein 1.0 fadeout 1.0
     scene l1_police
     police serious "面对唾手可得的诱惑，能够坚守底线、及时止损，是非常优秀的反诈素养！所有诈骗，都是从贪图小便宜开始的！"
 
     $ clear_chapter(1, 3)
     $ quick_menu = False
+    stop music fadeout 0.5
+    play sound "audio/se_win.wav"
     call screen level_clear(1, 3, l1_tip)
+    stop sound
     $ quick_menu = True
     jump select_level
 
@@ -194,12 +216,16 @@ label ch1_C2:
     scene l1_find_mom
     n "阿狐不堪其扰，拿着手机去找妈妈求助。妈妈帮忙屏蔽骚扰、加固账号安全。"
 
+    play music "audio/bgm_relief.mp3" fadein 1.0 fadeout 1.0
     scene l1_police
     police serious "没有「只填一点信息没事」的骗局！只要泄露个人信息，就会给骗子留下可乘之机，引来二次诈骗和无休止骚扰。"
 
     $ clear_chapter(1, 1)
     $ quick_menu = False
+    stop music fadeout 0.5
+    play sound "audio/se_flat.wav"
     call screen level_clear(1, 1, l1_tip)
+    stop sound
     $ quick_menu = True
     jump select_level
 
@@ -224,11 +250,15 @@ label ch1_C3:
     scene l1_mom_comfort
     mom normal "没关系，这次经历也是一次成长。天上不会掉免费的礼物，以后遇到这种福利我们坚决不相信就好。"
 
+    play music "audio/bgm_relief.mp3" fadein 1.0 fadeout 1.0
     scene l1_police
     police serious "小朋友一定要记住！任何索要游戏密码、手机验证码的免费福利，百分百是诈骗！游戏官方永远不会私下索要你的私密账号信息。贪图免费道具，最后只会丢失账号和个人信息。"
 
     $ quick_menu = False
+    stop music fadeout 0.5
+    play sound "audio/se_fail.wav"
     call screen level_fail(1, l1_tip)
+    stop sound
     $ quick_menu = True
     if _return == "retry":
         # 重新挑战时清空上一轮的对话历史，不残留上次尝试的内容
