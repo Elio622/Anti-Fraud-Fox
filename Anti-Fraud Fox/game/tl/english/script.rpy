@@ -1,11 +1,5 @@
 # TODO: Translation updated at 2026-09-02 22:00
 
-# game/script.rpy:166
-translate english ch2_faba358d:
-
-    # n "第 2 关还在开发中，敬请期待！"
-    n "Level 2 is still in development. Stay tuned!"
-
 
 translate english strings:
 

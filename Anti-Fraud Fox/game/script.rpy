@@ -45,6 +45,27 @@ image l1_chat = Transform("images/l1_chat.png", xsize=1280, ysize=720)
 image l1_restore = Transform("images/l1_restore.png", xsize=1280, ysize=720)
 image l1_mom_comfort = Transform("images/l1_mom_comfort.png", xsize=1280, ysize=720)
 
+## 关卡2 剧情插图 / 手机界面
+image l2_bedroom = Transform("images/l2_bedroom.png", xsize=1280, ysize=720)
+image l2_video = Transform("images/l2_video.png", xsize=1280, ysize=720)
+image l2_msg = Transform("images/l2_msg.png", xsize=1280, ysize=720)
+image l2_skip = Transform("images/l2_skip.png", xsize=1280, ysize=720)
+image l2_mom_phone = Transform("images/l2_mom_phone.png", xsize=1280, ysize=720)
+image l2_mom_explain = Transform("images/l2_mom_explain.png", xsize=1280, ysize=720)
+image l2_mom_comfort = Transform("images/l2_mom_comfort.png", xsize=1280, ysize=720)
+image l2_transfer = Transform("images/l2_transfer.png", xsize=1280, ysize=720)
+image l2_pay = Transform("images/l2_pay.png", xsize=1280, ysize=720)
+image l2_blocked = Transform("images/l2_blocked.png", xsize=1280, ysize=720)
+image l2_block = Transform("images/l2_block.png", xsize=1280, ysize=720)
+image l2_teacher_call = Transform("images/l2_teacher_call.png", xsize=1280, ysize=720)
+image l2_refuse = Transform("images/l2_refuse.png", xsize=1280, ysize=720)
+image l2_retain = Transform("images/l2_retain.png", xsize=1280, ysize=720)
+image l2_delete = Transform("images/l2_delete.png", xsize=1280, ysize=720)
+image l2_police_station = Transform("images/l2_police_station.png", xsize=1280, ysize=720)
+image l2_voice_teacher = Transform("images/l2_voice_teacher.png", xsize=1280, ysize=720)
+image l2_forward = Transform("images/l2_forward.png", xsize=1280, ysize=720)
+image l2_forward_req = Transform("images/l2_forward_req.png", xsize=1280, ysize=720)
+
 
 ## 角色立绘（共用 side 标签，show 时自动替换上一个角色）
 ## 主角小狐狸「阿狐」的表情立绘（已抠透明底）
@@ -175,10 +196,3 @@ label select_level:
     # 进入新关卡前清空对话历史，避免上一关的对话残留到下一关（重试同理）
     $ _history_list = []
     jump expression "ch%d" % _level
-
-
-## 第 2 关占位（第 1、3~15 关已有剧本；占位关按 1 星通过，保证关卡链可以继续解锁）
-label ch2:
-    $ clear_chapter(2, 1)
-    n "第 2 关还在开发中，敬请期待！"
-    jump select_level
