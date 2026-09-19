@@ -364,3 +364,7 @@ translate english strings:
     old "怕定金打水漂，全额支付激活费"
     new "Afraid of losing the deposit — pay the full activation fee"
 
+    # game/ch08.rpy:57
+    old "拿不准，先去问问妈妈"
+    new "Not sure — go ask Mom first"
+

@@ -19,10 +19,10 @@ translate english ch14_29358e76:
     n "He answered, and Dad's face filled the screen, the background looking like a hotel room."
 
 # game/ch14.rpy:16
-translate english ch14_b8a32358:
+translate english ch14_65b27577:
 
-    # dad serious "阿狐，是爸爸。别开声外放，我有急事跟你说。"
-    dad serious "Ahu, it's Dad. Don't put me on speaker — I have something urgent to tell you."
+    # dad serious "阿狐，是爸爸。别开外放，我有急事跟你说。"
+    dad serious "Ahu, it's Dad. Don't put me on speakerphone — I have something urgent to tell you."
 
 # game/ch14.rpy:19
 translate english ch14_dcbfe643:

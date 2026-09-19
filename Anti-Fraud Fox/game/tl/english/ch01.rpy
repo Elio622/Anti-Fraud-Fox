@@ -13,10 +13,10 @@ translate english ch1_d5031589:
     n "Like most of his classmates, Ahu loves this casual mobile game. Watching everyone show off their flashy limited skins and exclusive effects, he couldn't help feeling jealous."
 
 # game/ch01.rpy:14
-translate english ch1_2ea02bb1:
+translate english ch1_c3f2d2a0:
 
-    # n "可正版皮肤价格很贵，自己从来舍不得让爸爸妈妈花钱。这一份小小的期待，悄悄被网络里的骗子盯上了。"
-    n "But official skins are super expensive, and he never wanted to ask Mom and Dad to spend money on them. That tiny hope was exactly what the scammers online were watching for."
+    # n "可正版皮肤价格很贵，他从来不舍得让爸爸妈妈花钱买。这一份小小的期待，悄悄被网络里的骗子盯上了。"
+    n "But official skins are super expensive, and he'd never been willing to have Mom and Dad spend money on them. That tiny hope was exactly what the scammers online were watching for."
 
 # game/ch01.rpy:17
 translate english ch1_06ce0b07:

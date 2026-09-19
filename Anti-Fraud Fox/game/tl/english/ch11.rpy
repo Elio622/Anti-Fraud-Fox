@@ -133,10 +133,10 @@ translate english ch11_B1_ada34851:
     police laugh "Great timing! The iron rule of brushing scams: small-order rebates are bait, big-order advances are the harvest. Any \"gig\" that makes you pay upfront is fraud!"
 
 # game/ch11.rpy:88
-translate english ch11_B2_fde09fc5:
+translate english ch11_B2_92d2adc4:
 
-    # n "阿狐做了两单点赞任务，真收到了10元工资。"
-    n "Ahu did two liking tasks and really received 10 yuan."
+    # n "阿狐做了一单点赞任务，真收到了5元工资。"
+    n "Ahu did one liking task and really received 5 yuan."
 
 # game/ch11.rpy:89
 translate english ch11_B2_1a14131d:
@@ -175,10 +175,10 @@ translate english ch11_B3_cbb7bee0:
     n "Ahu downloaded the \"order APP\" and grabbed an advanced task: advance 100 yuan on an order, get principal plus 30 yuan commission back in 10 minutes."
 
 # game/ch11.rpy:108
-translate english ch11_B3_f195725c:
+translate english ch11_B3_e45efe9a:
 
-    # n "他垫付了100元。几分钟后，页面显示「任务完成，佣金100元+本金待结算」，可提现按钮却一直转圈。"
-    n "He advanced 100 yuan. Minutes later the page showed \"task complete — commission 100 yuan + principal pending\", but the withdraw button just kept spinning."
+    # n "他垫付了100元。几分钟后，页面显示「任务完成，佣金30元+本金待结算」，可提现按钮却一直转圈。"
+    n "He advanced 100 yuan. Minutes later the page showed \"task complete — commission 30 yuan + principal pending\", but the withdraw button just kept spinning."
 
 # game/ch11.rpy:109
 translate english ch11_B3_b99bc919:

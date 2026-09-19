@@ -241,10 +241,10 @@ translate english ch2_refuse_dfbac421:
     mc serious "I won't unlock any advanced tasks, and I won't advance any money. Don't message me again."
 
 # game/ch02.rpy:144
-translate english ch2_refuse_55efcd21:
+translate english ch2_refuse_38c32f1b:
 
-    # n "发完消息，客服并没有罢休，一连发了好多条消息游说：一会儿说激活费可以减半到 18 元，一会儿发别人赚了几百块的截图，一会儿又说「仅限今天的福利，错过就没了」。"
-    n "After his reply, customer service didn't give up, bombarding him with persuasion: the activation fee could be cut in half to 18 yuan; here are screenshots of others earning hundreds; it's a today-only deal, miss it and it's gone."
+    # n "发完消息，客服并没有罢休，一连发了好多条消息游说：一会儿说激活费可以降到 18 元，一会儿发别人赚了几百块的截图，一会儿又说「仅限今天的福利，错过就没了」。"
+    n "After his reply, customer service didn't give up, bombarding him with persuasion: the activation fee could be dropped to 18 yuan; here are screenshots of others earning hundreds; it's a today-only deal, miss it and it's gone."
 
 # game/ch02.rpy:145
 translate english ch2_refuse_ac002641:

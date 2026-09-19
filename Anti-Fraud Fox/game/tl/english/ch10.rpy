@@ -31,10 +31,10 @@ translate english ch10_578c3958:
     think normal "We've chatted so long — swapping photos is normal enough..."
 
 # game/ch10.rpy:22
-translate english ch10_45c59e2f:
+translate english ch10_09717f90:
 
-    # xiaoyu laugh "照片太模糊啦！你发一张穿着睡衣、光着膀子的，我们才是真正的好朋友嘛，我都发过了，你怕什么呀！"
-    xiaoyu laugh "That photo's too blurry! Send one in your pajamas, bare-chested — that's what real friends do. I already sent mine. What are you afraid of?"
+    # xiaoyu laugh "照片太模糊啦！你发一张穿着睡衣、光着膀子的照片，我们才是真正的好朋友嘛，我都发过了，你怕什么呀！"
+    xiaoyu laugh "That photo's too blurry! Send a photo in your pajamas, bare-chested — that's what real friends do. I already sent mine. What are you afraid of?"
 
 # game/ch10.rpy:36
 translate english ch10_A_0d3f91f8:
@@ -325,10 +325,10 @@ translate english ch10_C3_ff536634:
     n "Ahu couldn't eat or sleep, his grades plummeted, and he lived in constant fear. A month later, his head teacher noticed something wrong and, with patient questions, finally got the truth out of him in tears."
 
 # game/ch10.rpy:188
-translate english ch10_C3_c825b767:
+translate english ch10_C3_bd7193e1:
 
-    # n "老师和家长立刻报警，骗子落网了——但已转走的一千多元，只追回了一小部分。"
-    n "The teacher and parents reported to the police immediately, and the scammer was caught — but only a small part of the stolen 1,000-plus yuan was recovered."
+    # n "老师和家长立刻报警，骗子落网了——但已转走的1000元，只追回了一小部分。"
+    n "The teacher and parents reported to the police immediately, and the scammer was caught — but only a small part of the stolen 1,000 yuan was recovered."
 
 # game/ch10.rpy:189
 translate english ch10_C3_a839a7d9:

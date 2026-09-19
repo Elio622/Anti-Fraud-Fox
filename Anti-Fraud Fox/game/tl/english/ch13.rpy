@@ -139,10 +139,10 @@ translate english ch13_B1_1a5f5f3a:
     police laugh "Bringing evidence to your parents — beautiful! Remember: every \"winner list\" and \"receipt\" can be photoshopped. The one thing that can't be faked: a draw you never entered can't be won!"
 
 # game/ch13.rpy:89
-translate english ch13_B2_dafb8efe:
+translate english ch13_B2_75786afd:
 
-    # mc serious "名单我不看，公证费我不交，身份证号更不能给。要么原路发放奖品，就当我没中。"
-    mc serious "I won't look at the list, won't pay the fee, and certainly won't give my ID number. Deliver the prize through the original channel, or count me out."
+    # mc serious "名单我不看，公证费我不交，身份证号更不能给。要么原路发放奖品，不然就当我没中。"
+    mc serious "I won't look at the list, won't pay the fee, and certainly won't give my ID number. Deliver the prize through the original channel, or I'll count it as never won."
 
 # game/ch13.rpy:90
 translate english ch13_B2_490eb08f:
@@ -361,8 +361,8 @@ translate english strings:
     new "Not sure — take the tablet to Mom"
 
     # game/ch13.rpy:61
-    old "只填QQ号，不填身份证也不交钱"
-    new "Give only my QQ number — no ID, no payment"
+    old "身份证号不填，公证费也不交，直接回绝"
+    new "No ID number, no notary fee — refuse them outright"
 
     # game/ch13.rpy:63
     old "相信名单，填身份信息登记领奖"
