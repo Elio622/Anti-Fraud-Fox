@@ -23,7 +23,7 @@ label ch3:
     rabbit laugh "我们课外班的老师说我弄坏了教室的投影仪，让我赔800块，不然就要告诉我爸妈！"
     rabbit laugh "我不敢跟家里人开口，你先借我800，我周一到学校就还你现金！求你了！"
 
-    scene l3_rabbit_800
+    scene l3_rabbit_borrow
 
     menu:
         "觉得口气有点怪，回复追问细节":
@@ -149,7 +149,7 @@ label ch3_C:
     rabbit laugh "太好了！你真是我的救命恩人！快用你妈妈的手机扫码转800，动作快点，老师马上就要告诉我爸妈了！"
     n "对方又发来一段带着哭腔的语音，一遍遍催促阿狐快点转账。"
 
-    scene l3_rabbit_800
+    scene l3_rabbit_qrcode
 
     menu:
         "转账前猛然醒悟，先核实再说":
