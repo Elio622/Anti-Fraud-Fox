@@ -66,6 +66,24 @@ image l2_voice_teacher = Transform("images/l2_voice_teacher.png", xsize=1280, ys
 image l2_forward = Transform("images/l2_forward.png", xsize=1280, ysize=720)
 image l2_forward_req = Transform("images/l2_forward_req.png", xsize=1280, ysize=720)
 
+## 关卡5 剧情分镜
+image l5_homework = Transform("images/l5_00_homework.png", xsize=1280, ysize=720)
+image l5_refund_message = Transform("images/l5_01_refund_message.png", xsize=1280, ysize=720)
+image l5_ask_mom = Transform("images/l5_02_ask_mom.png", xsize=1280, ysize=720)
+image l5_fake_group = Transform("images/l5_03_fake_group.png", xsize=1280, ysize=720)
+image l5_app_request = Transform("images/l5_04_app_request.png", xsize=1280, ysize=720)
+image l5_show_evidence = Transform("images/l5_05_show_evidence.png", xsize=1280, ysize=720)
+image l5_refuse_app = Transform("images/l5_06_refuse_app.png", xsize=1280, ysize=720)
+image l5_register = Transform("images/l5_07_register.png", xsize=1280, ysize=720)
+image l5_unfreeze_500 = Transform("images/l5_08_unfreeze_500.png", xsize=1280, ysize=720)
+image l5_mom_help = Transform("images/l5_09_mom_help.png", xsize=1280, ysize=720)
+image l5_small_reward = Transform("images/l5_10_small_reward.png", xsize=1280, ysize=720)
+image l5_task_3000 = Transform("images/l5_11_task_3000.png", xsize=1280, ysize=720)
+image l5_stop_payment = Transform("images/l5_12_stop_payment.png", xsize=1280, ysize=720)
+image l5_payment_trap = Transform("images/l5_13_payment_trap.png", xsize=1280, ysize=720)
+image l5_contact_lost = Transform("images/l5_14_contact_lost.png", xsize=1280, ysize=720)
+image l5_mom_comfort = Transform("images/l5_15_mom_comfort.png", xsize=1280, ysize=720)
+
 
 ## 角色立绘（共用 side 标签，show 时自动替换上一个角色）
 ## 主角小狐狸「阿狐」的表情立绘（已抠透明底）
