@@ -66,6 +66,19 @@ image l2_voice_teacher = Transform("images/l2_voice_teacher.png", xsize=1280, ys
 image l2_forward = Transform("images/l2_forward.png", xsize=1280, ysize=720)
 image l2_forward_req = Transform("images/l2_forward_req.png", xsize=1280, ysize=720)
 
+## 关卡3 剧情插图（冒充同学诈骗）
+image l3_chat_msg = Transform("images/l3_chat_msg.png", xsize=1280, ysize=720)
+image l3_rabbit_800 = Transform("images/l3_rabbit_800.png", xsize=1280, ysize=720)
+image l3_qrcode_pay = Transform("images/l3_qrcode_pay.png", xsize=1280, ysize=720)
+image l3_payment_confirm = Transform("images/l3_payment_confirm.png", xsize=1280, ysize=720)
+image l3_payment_confirm_100 = Transform("images/l3_payment_confirm_100.png", xsize=1280, ysize=720)
+image l3_phone_verify = Transform("images/l3_phone_verify.png", xsize=1280, ysize=720)
+image l3_video_refused = Transform("images/l3_video_refused.png", xsize=1280, ysize=720)
+image l3_blocked_account = Transform("images/l3_blocked_account.png", xsize=1280, ysize=720)
+image l3_final_summary = Transform("images/l3_final_summary.png", xsize=1280, ysize=720)
+image rabbit_full_normal = Transform("images/rabbit_full_normal.png", xsize=1280, ysize=720)
+image rabbit_full_cute = Transform("images/rabbit_full_cute.png", xsize=1280, ysize=720)
+
 ## 关卡5 剧情分镜
 image l5_homework = Transform("images/l5_00_homework.png", xsize=1280, ysize=720)
 image l5_refund_message = Transform("images/l5_01_refund_message.png", xsize=1280, ysize=720)

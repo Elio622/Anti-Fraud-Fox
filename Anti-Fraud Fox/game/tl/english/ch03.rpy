@@ -4,7 +4,7 @@
 translate english ch3_edceb2f2:
 
     # n "周六的晚上，作业早就写完，阿狐窝在卧室里用平板和同学聊天。"
-    n "Saturday evening. Homework done long ago, Ahu was curled up in his bedroom, chatting with classmates on his tablet."
+    n "Saturday evening. Homework done long ago, Ahu was curled up on his bed, chatting with classmates on his tablet."
 
 # game/ch03.rpy:17
 translate english ch3_0bacc1ca:
