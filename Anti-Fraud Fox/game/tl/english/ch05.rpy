@@ -400,15 +400,3 @@ translate english strings:
 
 # TODO: Translation updated at 2026-09-07 11:03
 
-# game/ch05.rpy:35
-translate english ch5_A_3864983d:
-
-    # n "班会上，猫头鹰老师正好讲过同类的案例。"
-    n "At a class meeting, the owl teacher had covered a case just like this one."
-
-# game/ch05.rpy:36
-translate english ch5_A_252239ed:
-
-    # teacher serious "骗子会冒充客服主动找你「退费」，先用甜头把你引进假平台。记住：主动找上门的退费，一律先通过官方渠道核实！"
-    teacher serious "Scammers pose as support agents offering \"refunds\", using sweet deals to funnel you into fake platforms. Remember: any refund that comes to YOU gets verified through official channels first!"
-
