@@ -97,6 +97,24 @@ image l5_payment_trap = Transform("images/l5_13_payment_trap.png", xsize=1280, y
 image l5_contact_lost = Transform("images/l5_14_contact_lost.png", xsize=1280, ysize=720)
 image l5_mom_comfort = Transform("images/l5_15_mom_comfort.png", xsize=1280, ysize=720)
 
+## 关卡6 剧情分镜
+image l6_anniversary_night = Transform("images/l6_01_anniversary_night.png", xsize=1280, ysize=720)
+image l6_fake_giveaway = Transform("images/l6_02_fake_giveaway.png", xsize=1280, ysize=720)
+image l6_exit_and_report = Transform("images/l6_03_exit_and_report.png", xsize=1280, ysize=720)
+image l6_question_qr = Transform("images/l6_04_question_qr.png", xsize=1280, ysize=720)
+image l6_fake_proof = Transform("images/l6_05_fake_proof.png", xsize=1280, ysize=720)
+image l6_identity_request = Transform("images/l6_06_identity_request.png", xsize=1280, ysize=720)
+image l6_ask_mom = Transform("images/l6_07_ask_mom.png", xsize=1280, ysize=720)
+image l6_refuse_identity = Transform("images/l6_08_refuse_identity.png", xsize=1280, ysize=720)
+image l6_submit_information = Transform("images/l6_09_submit_information.png", xsize=1280, ysize=720)
+image l6_authentication_fee = Transform("images/l6_10_authentication_fee.png", xsize=1280, ysize=720)
+image l6_enter_lottery_group = Transform("images/l6_11_enter_lottery_group.png", xsize=1280, ysize=720)
+image l6_fake_winner = Transform("images/l6_12_fake_winner.png", xsize=1280, ysize=720)
+image l6_stop_before_payment = Transform("images/l6_13_stop_before_payment.png", xsize=1280, ysize=720)
+image l6_customs_fee_trap = Transform("images/l6_14_customs_fee_trap.png", xsize=1280, ysize=720)
+image l6_blocked_after_payments = Transform("images/l6_15_blocked_after_payments.png", xsize=1280, ysize=720)
+image l6_mom_comfort = Transform("images/l6_16_mom_comfort.png", xsize=1280, ysize=720)
+
 
 ## 角色立绘（共用 side 标签，show 时自动替换上一个角色）
 ## 主角小狐狸「阿狐」的表情立绘（已抠透明底）

@@ -87,8 +87,8 @@ translate english ch6_B_4884d8bd:
 # game/ch06.rpy:68
 translate english ch6_B1_589f4452:
 
-    # n "阿狐心里拿不准，拿着平板走到客厅找妈妈。"
-    n "Unsure, Ahu carried his tablet to the living room to find Mom."
+    # n "阿狐心里拿不准，拿着手机走到客厅找妈妈。"
+    n "Unsure, Ahu carried his phone to the living room to find Mom."
 
 # game/ch06.rpy:69
 translate english ch6_B1_f699d790:
