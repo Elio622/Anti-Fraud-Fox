@@ -84,8 +84,8 @@ translate english ch6_B_4884d8bd:
     # fraud serious "登记抽奖资格需要：家长手机号、身份证号，再扫脸认证，防止黄牛冒领。信息绝对保密！"
     fraud serious "To register you need: a parent's phone number, your ID number, plus a face scan to keep out scalpers. Totally confidential!"
 
-# game/ch06.rpy:68
-translate english ch6_B1_589f4452:
+# game/ch06.rpy:72
+translate english ch6_B1_64b9d5a0:
 
     # n "阿狐心里拿不准，拿着手机走到客厅找妈妈。"
     n "Unsure, Ahu carried his phone to the living room to find Mom."

@@ -115,6 +115,20 @@ image l6_customs_fee_trap = Transform("images/l6_14_customs_fee_trap.png", xsize
 image l6_blocked_after_payments = Transform("images/l6_15_blocked_after_payments.png", xsize=1280, ysize=720)
 image l6_mom_comfort = Transform("images/l6_16_mom_comfort.png", xsize=1280, ysize=720)
 
+image l7_bedroom = Transform("images/l7_00_bedroom.png", xsize=1280, ysize=720)
+image l7_buyer_ad = Transform("images/l7_01_ad.png", xsize=1280, ysize=720)
+image l7_report_ad = Transform("images/l7_02_report.png", xsize=1280, ysize=720)
+image l7_phish_link = Transform("images/l7_03_phishlink.png", xsize=1280, ysize=720)
+image l7_ask_dad = Transform("images/l7_04_ask_dad.png", xsize=1280, ysize=720)
+image l7_dupe_hacked = Transform("images/l7_05_dupe_hacked.png", xsize=1280, ysize=720)
+image l7_freeze_50 = Transform("images/l7_06_freeze50.png", xsize=1280, ysize=720)
+image l7_valuation_520 = Transform("images/l7_07_valuation.png", xsize=1280, ysize=720)
+image l7_frozen_500 = Transform("images/l7_08_frozen500.png", xsize=1280, ysize=720)
+image l7_thaw_30 = Transform("images/l7_09_thaw30.png", xsize=1280, ysize=720)
+image l7_fees_800 = Transform("images/l7_10_fees.png", xsize=1280, ysize=720)
+image l7_hacked = Transform("images/l7_11_hacked.png", xsize=1280, ysize=720)
+image l7_dad_comfort = Transform("images/l7_12_dad_comfort.png", xsize=1280, ysize=720)
+
 
 ## 角色立绘（共用 side 标签，show 时自动替换上一个角色）
 ## 主角小狐狸「阿狐」的表情立绘（已抠透明底）

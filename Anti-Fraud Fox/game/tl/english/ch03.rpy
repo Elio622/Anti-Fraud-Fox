@@ -1,9 +1,9 @@
 ﻿# TODO: Translation updated at 2026-09-06 20:16
 
 # game/ch03.rpy:16
-translate english ch3_edceb2f2:
+translate english ch3_8cf37135:
 
-    # n "周六的晚上，作业早就写完，阿狐窝在卧室里用平板和同学聊天。"
+    # n "周六的晚上，作业早就写完，阿狐窝在床上用平板和同学聊天。"
     n "Saturday evening. Homework done long ago, Ahu was curled up on his bed, chatting with classmates on his tablet."
 
 # game/ch03.rpy:17
@@ -475,3 +475,4 @@ translate english ch3_B1_c9ef398d:
 
     # teacher serious "遇到网上借钱，自己拿不准的，不要回复、不要操作，第一时间告诉爸爸妈妈！"
     teacher serious "If someone asks to borrow money online and you're not sure — don't reply, don't act. Tell your mom and dad right away!"
+
