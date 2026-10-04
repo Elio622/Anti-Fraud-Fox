@@ -264,18 +264,6 @@ translate english ch7_C1_12b43e3e:
     # police serious "识破「卖号反被收钱」的把戏，反应很快！记住：凡是让你交钱才能「提现」「解冻」的，都是骗局，交得越多陷得越深！"
     police serious "Quick reflexes seeing through the \"seller pays\" trick! Remember: anyone demanding money to \"withdraw\" or \"unfreeze\" is running a scam — the more you pay, the deeper you sink!"
 
-# game/ch07.rpy:162
-translate english ch7_C2_d78d8d03:
-
-    # n "阿狐舍不得「账户里」的520元，决定先交100元「小额解冻费」试试。"
-    n "Reluctant to lose the 520 yuan \"in the account\", Ahu decided to pay a 100-yuan \"partial unfreezing fee\" first."
-
-# game/ch07.rpy:163
-translate english ch7_C2_0ffe68f4:
-
-    # think laugh "先交100，账号解冻了，520元不就回来了？"
-    think laugh "Pay 100 first — once it unfreezes, my 520 comes back, right?"
-
 # game/ch07.rpy:165
 translate english ch7_C2_9072b953:
 
@@ -287,12 +275,6 @@ translate english ch7_C2_eab50fcd:
 
     # n "阿狐把事情告诉爸爸。爸爸说这就是连环骗局，之前的钱都打了水漂，好在账号密码马上改掉，没被一锅端。"
     n "Ahu told Dad. He said it was a chain scam — the earlier money was gone, but luckily the password was changed right away, so the account itself was saved."
-
-# game/ch07.rpy:169
-translate english ch7_C2_20af978f:
-
-    # police serious "骗子的「解冻进度」永远差最后一截！止损最好的时机，就是识破骗局的那一刻。多交的100元，买了个教训。"
-    police serious "A scammer's \"unfreezing progress\" is always short of the end! The best time to cut losses is the moment you see through the scam. The extra 100 yuan bought a lesson."
 
 # game/ch07.rpy:181
 translate english ch7_C3_bdf27e65:
@@ -366,19 +348,37 @@ translate english strings:
     old "猛然醒悟，识破「解冻金」骗局"
     new "Wake up and see through the \"unfreezing fee\" scam"
 
-    # game/ch07.rpy:134
-    old "心存侥幸，先交100元「小额解冻」试试"
-    new "Take the chance — pay 100 yuan for \"partial unfreezing\" first"
+    # game/ch07.rpy:131
+    old "心存侥幸，先交150元「小额解冻」试试"
+    new "Take the chance — pay 150 yuan for \"partial unfreezing\" first"
 
     # game/ch07.rpy:136
     old "怕赔违约金，赶紧交500元解冻金"
     new "Afraid of the penalty — pay the 500-yuan fee quickly"
 
-# TODO: Translation updated at 2026-09-06 21:51
+# TODO: Translation updated at 2026-10-04 13:36
 
-# game/ch07.rpy:164
-translate english ch7_C2_52f77a3e:
+# game/ch07.rpy:159
+translate english ch7_C2_e457b922:
 
-    # n "100元转过去，页面又提示：解冻进度30%%，需再交400元完成全部解冻。"
-    n "The 100 yuan went through, then the page showed: unfreezing progress 30%% — pay another 400 yuan to complete it."
+    # n "阿狐舍不得「账户里」的520元，决定先交150元「小额解冻费」试试。"
+    n "Reluctant to lose the 520 yuan \"in the account\", Ahu decided to pay a 150-yuan \"partial unfreezing fee\" first."
+
+# game/ch07.rpy:160
+translate english ch7_C2_b7ae91a3:
+
+    # think laugh "先交150，账号解冻了，520元不就回来了？"
+    think laugh "Pay 150 first — once it unfreezes, my 520 comes back, right?"
+
+# game/ch07.rpy:162
+translate english ch7_C2_96149e59:
+
+    # n "150元转过去，页面又提示：解冻进度30%%，需再交350元完成全部解冻。"
+    n "The 150 yuan went through, then the page showed: unfreezing progress 30%% — pay another 350 yuan to complete it."
+
+# game/ch07.rpy:167
+translate english ch7_C2_e4a37a31:
+
+    # police serious "骗子的「解冻进度」永远差最后一截！止损最好的时机，就是识破骗局的那一刻。多交的150元，买了个教训。"
+    police serious "A scammer's \"unfreezing progress\" is always short of the end! The best time to cut losses is the moment you see through the scam. The extra 150 yuan bought a lesson."
 
