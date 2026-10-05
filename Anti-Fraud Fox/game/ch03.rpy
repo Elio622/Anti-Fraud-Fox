@@ -40,6 +40,7 @@ label ch3_A:
     n "阿狐盯着屏幕，越看越觉得不对劲。"
     think serious "学校反诈班会讲过「冒充同学借钱」的骗局——真同学遇到了急事，打电话一问就知道！"
     n "阿狐的脑海里，响起了班主任猫头鹰老师在反诈班会上的声音。"
+    scene l3_teacher_class
     teacher serious "同学们记住：账号会被盗、头像会造假。凡是「同学」在网上开口借钱，先挂断，打电话当面核实！"
     mc serious "借钱的事，网上说不好，我先打电话核实一下。"
     scene l3_phone_verify
@@ -79,7 +80,7 @@ label ch3_B:
 
 # B1：求助家长 · 满分
 label ch3_B1:
-    scene bg_living
+    scene l5_ask_mom
     n "阿狐压住心里的着急，直接退出聊天，拿着平板走到客厅找妈妈。"
     think worried "虽然很想帮小兔，但网上借钱总觉得不太对劲，还是先问问妈妈吧。"
     n "老师班会上的叮嘱，也在耳边响了起来。"
@@ -124,6 +125,7 @@ label ch3_B3:
     scene bg_bedroom
     n "阿狐觉得对方连收款码都发来了，应该不会是假的，便打开妈妈的手机准备扫码。"
     n "刚扫完码，妈妈的手机就收到一条短信验证码，对方紧接着发来消息。"
+    scene l3_verifycode
     rabbit laugh "快！把刚收到的6位数字发给我，系统要验证一下，发完钱就转过去了！"
     n "阿狐正要把数字念出来，突然想起老师的反诈课堂：验证码就是钱，谁要都不能给！"
     think serious "等等！老师说过，验证码谁要都不能给！"
@@ -168,7 +170,7 @@ label ch3_C1:
     mc serious "钱我不能转。你要真是小兔，就和我视频，或者我打电话给你妈妈核实。"
     n "对面瞬间没了声音。阿狐把聊天记录拿给妈妈看，妈妈联系小兔妈妈一核实——小兔的账号被盗了，根本没有赔投影仪这回事。"
 
-    scene bg_living
+    scene l5_ask_mom
     mom laugh "你能在「帮朋友」的大事面前冷静核实，做得太棒了！"
     scene l3_final_summary
     police serious "临「钱」不乱，先核实再决定，这就是反诈的高手！记住：网友、同学网上借钱，一律电话、当面核实后再说。"
@@ -193,7 +195,7 @@ label ch3_C2:
     mc confused "咦？说好我垫付、周一还现金，怎么一直催着我转剩下的……"
     n "阿狐越想越不对，把事情告诉了妈妈。妈妈联系小兔妈妈核实——小兔账号被盗，那100元已经追不回来了。"
 
-    scene bg_living
+    scene l5_ask_mom
     mc sad "唉，我不该抱着侥幸心理先转钱的……"
     scene l3_final_summary
     police serious "骗子的套路就是一步步试探你的底线！只要转出第一笔钱，骗子就会得寸进尺。网上借钱不核实，一分钱都不能转！"
@@ -217,7 +219,7 @@ label ch3_C3:
     scene l3_blocked_account
     $ renpy.pause(2.0)
 
-    scene bg_living
+    scene l5_mom_comfort
     mc sad "我……我被骗了……那是妈妈的血汗钱……"
     n "阿狐哭着向妈妈承认了错误，妈妈抱了抱他。"
     mom normal "没关系，钱的事情以后一定要先告诉我们。记住：网上开口要钱的「同学」，先打电话核实；转账之前，永远先问爸爸妈妈。"
