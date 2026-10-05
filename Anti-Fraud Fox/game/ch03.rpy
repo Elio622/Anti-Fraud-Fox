@@ -36,11 +36,10 @@ label ch3:
 
 # ============ 分支A：理智避险 · 满分通关 ============
 label ch3_A:
-    scene bg_bedroom
+    scene l3_teacher_class
     n "阿狐盯着屏幕，越看越觉得不对劲。"
     think serious "学校反诈班会讲过「冒充同学借钱」的骗局——真同学遇到了急事，打电话一问就知道！"
     n "阿狐的脑海里，响起了班主任猫头鹰老师在反诈班会上的声音。"
-    scene l3_teacher_class
     teacher serious "同学们记住：账号会被盗、头像会造假。凡是「同学」在网上开口借钱，先挂断，打电话当面核实！"
     mc serious "借钱的事，网上说不好，我先打电话核实一下。"
     scene l3_phone_verify
@@ -59,15 +58,14 @@ label ch3_A:
 
 # ============ 分支B：好奇试探 · 进入第二轮 ============
 label ch3_B:
-    scene bg_bedroom
     n "阿狐心里犯起了嘀咕，回复追问细节。"
+    scene l3_rabbit_800
     mc confused "你不是好好的吗？到底出了什么事？要赔800块钱？"
     rabbit worried "我手机被老师没收了，这是借同学账号上的聊天软件，你可千万别声张！"
     rabbit serious "老师催得紧，今天不赔就要告诉我爸妈。你先用你妈妈的手机扫这个码，把800转过去，我周一一定带现金还你！谢谢你，你是我最好的朋友！"
     n "对方发来一张收款码截图，收款人却是一个陌生的名字。"
     think confused "收款码上的名字，怎么既不是老师，也不是学校……"
 
-    scene l3_rabbit_800
 
     menu:
         "坚持要和小兔视频通话，见不到人不转钱":
@@ -101,10 +99,9 @@ label ch3_B1:
 
 # B2：坚持视频核实 · 及时止损（2星）
 label ch3_B2:
-    scene bg_bedroom
+    scene l3_video_refused
     mc serious "转钱之前，我们先开个视频，我看看你本人再说。"
     rabbit worried "视频……不行不行！我手机被没收了，借来的手机摄像头是坏的，信号也不好，你别磨蹭了！"
-    scene l3_video_refused
     $ renpy.pause(2.0)
     think serious "手机被没收、摄像头坏了、还一直催……小兔从来不会这样说话。这是骗子！"
     mc serious "我不转了。你要真是小兔，明天到学校当面跟我说。"
@@ -122,10 +119,9 @@ label ch3_B2:
 
 # B3：轻信收款码 · 轻微泄露（1星）
 label ch3_B3:
-    scene bg_bedroom
+    scene l3_verifycode
     n "阿狐觉得对方连收款码都发来了，应该不会是假的，便打开妈妈的手机准备扫码。"
     n "刚扫完码，妈妈的手机就收到一条短信验证码，对方紧接着发来消息。"
-    scene l3_verifycode
     rabbit laugh "快！把刚收到的6位数字发给我，系统要验证一下，发完钱就转过去了！"
     n "阿狐正要把数字念出来，突然想起老师的反诈课堂：验证码就是钱，谁要都不能给！"
     think serious "等等！老师说过，验证码谁要都不能给！"
@@ -144,14 +140,13 @@ label ch3_B3:
 
 # ============ 分支C：主动上钩 · 进入第三轮 ============
 label ch3_C:
-    scene bg_bedroom
+    scene l3_rabbit_qrcode
     n "阿狐一心想着帮好朋友，没有丝毫犹豫。"
     think laugh "小兔是我的好朋友，她这么着急，我一定要帮她！"
     mc laugh "别怕别怕，我这就帮你转，你等我！"
     rabbit laugh "太好了！你真是我的救命恩人！快用你妈妈的手机扫码转800，动作快点，老师马上就要告诉我爸妈了！"
     n "对方又发来一段带着哭腔的语音，一遍遍催促阿狐快点转账。"
 
-    scene l3_rabbit_qrcode
 
     menu:
         "转账前猛然醒悟，先核实再说":
@@ -164,13 +159,12 @@ label ch3_C:
 
 # C1：临危醒悟 · 逆风翻盘（3星）
 label ch3_C1:
-    scene bg_bedroom
+    scene l3_ask_mom
     n "手指停在付款按钮上方，阿狐心里突然咯噔一下。"
     think serious "不对！小兔就住我家隔壁，真出了这么大的事，她妈妈肯定直接来找我妈，怎么会只在聊天软件上找我借钱？学校反诈班会讲过——网上开口要钱的「同学」，多半是盗号的骗子！"
     mc serious "钱我不能转。你要真是小兔，就和我视频，或者我打电话给你妈妈核实。"
     n "对面瞬间没了声音。阿狐把聊天记录拿给妈妈看，妈妈联系小兔妈妈一核实——小兔的账号被盗了，根本没有赔投影仪这回事。"
 
-    scene l5_ask_mom
     mom laugh "你能在「帮朋友」的大事面前冷静核实，做得太棒了！"
     scene l3_final_summary
     police serious "临「钱」不乱，先核实再决定，这就是反诈的高手！记住：网友、同学网上借钱，一律电话、当面核实后再说。"
@@ -184,12 +178,11 @@ label ch3_C1:
 
 # C2：侥幸试探 · 轻微受害（1星）
 label ch3_C2:
-    scene bg_bedroom
+    scene l3_payment_confirm_100
     n "阿狐既怕错过帮朋友的时机，又有点不放心，决定先少转一点试试真假。"
     think laugh "先转100，万一是骗子也亏得少；真是小兔，再转剩下的也不迟。"
     n "阿狐用妈妈的手机扫码，转出了100元。"
 
-    scene l3_payment_confirm_100
     n "钱刚转过去，对方的消息就轰炸了过来。"
     rabbit serious "怎么才转100？快把剩下的700转了！不然老师马上就告诉我爸妈了！"
     mc confused "咦？说好我垫付、周一还现金，怎么一直催着我转剩下的……"
