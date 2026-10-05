@@ -129,6 +129,18 @@ image l7_fees_800 = Transform("images/l7_10_fees.png", xsize=1280, ysize=720)
 image l7_hacked = Transform("images/l7_11_hacked.png", xsize=1280, ysize=720)
 image l7_dad_comfort = Transform("images/l7_12_dad_comfort.png", xsize=1280, ysize=720)
 
+image l8_bedroom = Transform("images/l8_00_bedroom.png", xsize=1280, ysize=720)
+image l8_shop = Transform("images/l8_01_shop.png", xsize=1280, ysize=720)
+image l8_report = Transform("images/l8_02_report.png", xsize=1280, ysize=720)
+image l8_goodreviews = Transform("images/l8_03_goodreviews.png", xsize=1280, ysize=720)
+image l8_ask_mom = Transform("images/l8_04_ask_mom.png", xsize=1280, ysize=720)
+image l8_transfer50 = Transform("images/l8_05_transfer50.png", xsize=1280, ysize=720)
+image l8_fullpayment = Transform("images/l8_06_fullpayment.png", xsize=1280, ysize=720)
+image l8_activate = Transform("images/l8_07_activate.png", xsize=1280, ysize=720)
+image l8_partial100 = Transform("images/l8_08_partial100.png", xsize=1280, ysize=720)
+image l8_fees650 = Transform("images/l8_09_fees650.png", xsize=1280, ysize=720)
+image l8_blocked = Transform("images/l8_10_blocked.png", xsize=1280, ysize=720)
+
 
 ## 角色立绘（共用 side 标签，show 时自动替换上一个角色）
 ## 主角小狐狸「阿狐」的表情立绘（已抠透明底）
