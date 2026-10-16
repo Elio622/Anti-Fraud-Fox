@@ -115,6 +115,42 @@ image l6_customs_fee_trap = Transform("images/l6_14_customs_fee_trap.png", xsize
 image l6_blocked_after_payments = Transform("images/l6_15_blocked_after_payments.png", xsize=1280, ysize=720)
 image l6_mom_comfort = Transform("images/l6_16_mom_comfort.png", xsize=1280, ysize=720)
 
+## 关卡13 剧情分镜
+image l13_game_night = Transform("images/l13_01_game_night.png", xsize=1280, ysize=720)
+image l13_jackpot_popup = Transform("images/l13_02_jackpot_popup.png", xsize=1280, ysize=720)
+image l13_claim_registration = Transform("images/l13_03_claim_registration.png", xsize=1280, ysize=720)
+image l13_stop_at_fee = Transform("images/l13_04_stop_at_fee.png", xsize=1280, ysize=720)
+image l13_close_and_report = Transform("images/l13_05_close_and_report.png", xsize=1280, ysize=720)
+image l13_question_the_fee = Transform("images/l13_06_question_the_fee.png", xsize=1280, ysize=720)
+image l13_fake_evidence = Transform("images/l13_07_fake_evidence.png", xsize=1280, ysize=720)
+image l13_ask_mom = Transform("images/l13_08_ask_mom.png", xsize=1280, ysize=720)
+image l13_refuse_and_leave = Transform("images/l13_09_refuse_and_leave.png", xsize=1280, ysize=720)
+image l13_information_leaked = Transform("images/l13_10_information_leaked.png", xsize=1280, ysize=720)
+image l13_pay_notary_fee = Transform("images/l13_11_pay_notary_fee.png", xsize=1280, ysize=720)
+image l13_tax_threat = Transform("images/l13_12_tax_threat.png", xsize=1280, ysize=720)
+image l13_wake_up_and_report = Transform("images/l13_13_wake_up_and_report.png", xsize=1280, ysize=720)
+image l13_partial_tax_trap = Transform("images/l13_14_partial_tax_trap.png", xsize=1280, ysize=720)
+image l13_blocked_after_payments = Transform("images/l13_15_blocked_after_payments.png", xsize=1280, ysize=720)
+image l13_confess_and_call_police = Transform("images/l13_16_confess_and_call_police.png", xsize=1280, ysize=720)
+
+## 关卡14 剧情分镜
+image l14_homework_alone = Transform("images/l14_01_homework_alone.png", xsize=1280, ysize=720)
+image l14_dad_video_call = Transform("images/l14_02_dad_video_call.png", xsize=1280, ysize=720)
+image l14_fake_dad_hotel = Transform("images/l14_03_fake_dad_hotel.png", xsize=1280, ysize=720)
+image l14_secret_transfer_demand = Transform("images/l14_04_secret_transfer_demand.png", xsize=1280, ysize=720)
+image l14_hang_up_and_callback = Transform("images/l14_05_hang_up_and_callback.png", xsize=1280, ysize=720)
+image l14_question_details = Transform("images/l14_06_question_details.png", xsize=1280, ysize=720)
+image l14_vague_pressure = Transform("images/l14_07_vague_pressure.png", xsize=1280, ysize=720)
+image l14_verify_with_family = Transform("images/l14_08_verify_with_family.png", xsize=1280, ysize=720)
+image l14_family_code_test = Transform("images/l14_09_family_code_test.png", xsize=1280, ysize=720)
+image l14_mom_stops_password = Transform("images/l14_10_mom_stops_password.png", xsize=1280, ysize=720)
+image l14_take_moms_phone = Transform("images/l14_11_take_moms_phone.png", xsize=1280, ysize=720)
+image l14_payment_password = Transform("images/l14_12_payment_password.png", xsize=1280, ysize=720)
+image l14_stop_before_password = Transform("images/l14_13_stop_before_password.png", xsize=1280, ysize=720)
+image l14_partial_transfer_2000 = Transform("images/l14_14_partial_transfer_2000.png", xsize=1280, ysize=720)
+image l14_full_transfer_blocked = Transform("images/l14_15_full_transfer_blocked.png", xsize=1280, ysize=720)
+image l14_family_safety_code = Transform("images/l14_16_family_safety_code.png", xsize=1280, ysize=720)
+
 
 ## 角色立绘（共用 side 标签，show 时自动替换上一个角色）
 ## 主角小狐狸「阿狐」的表情立绘（已抠透明底）
