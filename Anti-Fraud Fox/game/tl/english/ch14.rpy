@@ -174,17 +174,17 @@ translate english ch14_B2_015a1ee6:
     # police serious "「安全暗号」用得好！假脸能造，假声音能仿，但骗子猜不出你家的秘密约定。建议每个家庭都设一个暗号，专门用来核实身份！"
     police serious "Great use of the \"safety password\"! Faces can be faked, voices cloned — but scammers can't guess your family's secret agreement. Every family should have a password just for identity checks!"
 
-# game/ch14.rpy:109
-translate english ch14_B3_be4fef70:
+# game/ch14.rpy:112
+translate english ch14_B3_e352f36c:
 
-    # n "画面和声音实在太像爸爸了，阿狐相信了大半，蹑手蹑脚去拿妈妈的手机。"
-    n "The face and voice were so much like Dad's that Ahu believed most of it, and tiptoed to get Mom's phone."
+    # n "画面和声音实在太像爸爸了，阿狐相信了大半。他抱着平板来到客厅，蹑手蹑脚拿起妈妈留在茶几上的手机。"
+    n "The face and voice were so much like Dad's that Ahu believed most of it. Carrying his tablet, he tiptoed into the living room and picked up the phone Mom had left on the coffee table."
 
-# game/ch14.rpy:110
-translate english ch14_B3_6a026baf:
+# game/ch14.rpy:114
+translate english ch14_B3_49c9b1bd:
 
-    # n "支付页面要求输入密码，阿狐试着输了一遍妈妈的常用密码——错误；又试了一遍，还是错误。"
-    n "The payment page asked for the password. Ahu tried Mom's usual one — wrong. Tried again — still wrong."
+    # n "阿狐把手机带回书桌，按对方发来的账号打开转账页。支付页面要求输入密码，他试着输了一遍妈妈的常用密码——错误；又试了一遍，还是错误。"
+    n "Ahu brought the phone back to his desk and opened the transfer page for the account he had been sent. The payment page asked for a password. He tried Mom's usual one — wrong. Tried again — still wrong."
 
 # game/ch14.rpy:111
 translate english ch14_B3_50d20a85:
@@ -210,11 +210,11 @@ translate english ch14_B3_134051a4:
     # police serious "好险！幸好支付密码没试出来，不然两万块就没了。记住：AI换脸骗局的最后一步永远是「密码」和「转账」，这两道门谁也敲不开！"
     police serious "Close call! Thankfully the password never worked, or 20,000 yuan would be gone. Remember: the final steps of every AI face-swap scam are always the \"password\" and the \"transfer\". Those two doors open for no one!"
 
-# game/ch14.rpy:128
-translate english ch14_C_07c04277:
+# game/ch14.rpy:132
+translate english ch14_C_eec89c75:
 
-    # n "阿狐一心想着「救爸爸」，轻手轻脚拿到了妈妈的手机。"
-    n "Fixated on \"saving Dad\", Ahu quietly got hold of Mom's phone."
+    # n "阿狐一心想着「救爸爸」，抱着平板来到客厅，轻手轻脚拿起妈妈留在茶几上的手机。"
+    n "Fixated on \"saving Dad\", Ahu carried his tablet into the living room and quietly picked up the phone Mom had left on the coffee table."
 
 # game/ch14.rpy:129
 translate english ch14_C_43446315:
@@ -234,11 +234,11 @@ translate english ch14_C_408b8bdd:
     # dad serious "好儿子！账号我发你，先转2万。转完删掉记录，千万别让你妈发现！"
     dad serious "Good son! I'm sending the account — transfer the 20,000 first. Delete the records after, and never let your mom find out!"
 
-# game/ch14.rpy:132
-translate english ch14_C_d357b229:
+# game/ch14.rpy:137
+translate english ch14_C_f3117ec7:
 
-    # n "对方发来一个陌生账户。阿狐输入转账金额，页面弹出支付密码输入框。"
-    n "The scammer sent a stranger's account. Ahu entered the amount, and the payment password box popped up."
+    # n "阿狐把手机带回书桌。对方发来一个陌生账户，他输入转账金额，页面弹出支付密码输入框。"
+    n "Ahu brought the phone back to his desk. The scammer sent an unfamiliar account, and he entered the transfer amount. The payment password box popped up."
 
 # game/ch14.rpy:146
 translate english ch14_C1_c960b82e:

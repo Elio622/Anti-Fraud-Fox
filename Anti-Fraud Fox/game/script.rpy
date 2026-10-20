@@ -21,7 +21,7 @@ define police = Character("反诈警察", who_color="#ffffff", who_outlines=[(2,
 define n = Character(None)
 
 
-## 背景与全屏图像（fit="cover" 自动缩放铺满屏幕）
+## 背景与全屏图像（统一适配 1280×720）
 image bg title = Transform("images/title.jpg", xsize=1280, ysize=720)
 image bg clear1 = Transform("images/clear1.png", xsize=1280, ysize=720)
 image bg clear2 = Transform("images/clear2.png", xsize=1280, ysize=720)
@@ -29,6 +29,9 @@ image bg clear3 = Transform("images/clear3.png", xsize=1280, ysize=720)
 image bg fail = Transform("images/fail.png", xsize=1280, ysize=720)
 image bg bedroom = Transform("images/bg_bedroom.png", xsize=1280, ysize=720)
 image bg living = Transform("images/bg_living.png", xsize=1280, ysize=720)
+# 兼容各关卡使用的下划线名称，避免自动图片按原始尺寸显示。
+image bg_bedroom = Transform("images/bg_bedroom.png", xsize=1280, ysize=720)
+image bg_living = Transform("images/bg_living.png", xsize=1280, ysize=720)
 
 ## 关卡1 剧情插图 / 手机界面
 image l1_find_mom = Transform("images/l1_find_mom.jpg", xsize=1280, ysize=720)
@@ -69,7 +72,9 @@ image l2_forward_req = Transform("images/l2_forward_req.png", xsize=1280, ysize=
 ## 关卡3 剧情插图（冒充同学诈骗）
 image l3_chat_msg = Transform("images/l3_chat_msg.png", xsize=1280, ysize=720)
 image l3_rabbit_800 = Transform("images/l3_rabbit_800.png", xsize=1280, ysize=720)
-image l3_qrcode_pay = Transform("images/l3_qrcode_pay.png", xsize=1280, ysize=720)
+image l3_qrcode_pay = Transform("images/l3_rabbit_qrcode.png", xsize=1280, ysize=720)
+image l3_rabbit_qrcode = Transform("images/l3_rabbit_qrcode.png", xsize=1280, ysize=720)
+image l3_rabbit_borrow = Transform("images/l3_rabbit_borrow.png", xsize=1280, ysize=720)
 image l3_payment_confirm = Transform("images/l3_payment_confirm.png", xsize=1280, ysize=720)
 image l3_payment_confirm_100 = Transform("images/l3_payment_confirm_100.png", xsize=1280, ysize=720)
 image l3_phone_verify = Transform("images/l3_phone_verify.png", xsize=1280, ysize=720)
@@ -114,6 +119,34 @@ image l6_stop_before_payment = Transform("images/l6_13_stop_before_payment.png",
 image l6_customs_fee_trap = Transform("images/l6_14_customs_fee_trap.png", xsize=1280, ysize=720)
 image l6_blocked_after_payments = Transform("images/l6_15_blocked_after_payments.png", xsize=1280, ysize=720)
 image l6_mom_comfort = Transform("images/l6_16_mom_comfort.png", xsize=1280, ysize=720)
+
+## 关卡7 剧情分镜
+image l7_bedroom = Transform("images/l7_00_bedroom.png", xsize=1280, ysize=720)
+image l7_buyer_ad = Transform("images/l7_01_ad.png", xsize=1280, ysize=720)
+image l7_report_ad = Transform("images/l7_02_report.png", xsize=1280, ysize=720)
+image l7_phish_link = Transform("images/l7_03_phishlink.png", xsize=1280, ysize=720)
+image l7_ask_dad = Transform("images/l7_04_ask_dad.png", xsize=1280, ysize=720)
+image l7_dupe_hacked = Transform("images/l7_05_dupe_hacked.png", xsize=1280, ysize=720)
+image l7_freeze_50 = Transform("images/l7_06_freeze50.png", xsize=1280, ysize=720)
+image l7_valuation_520 = Transform("images/l7_07_valuation.png", xsize=1280, ysize=720)
+image l7_frozen_500 = Transform("images/l7_08_frozen500.png", xsize=1280, ysize=720)
+image l7_thaw_30 = Transform("images/l7_09_thaw30.png", xsize=1280, ysize=720)
+image l7_fees_800 = Transform("images/l7_10_fees.png", xsize=1280, ysize=720)
+image l7_hacked = Transform("images/l7_11_hacked.png", xsize=1280, ysize=720)
+image l7_dad_comfort = Transform("images/l7_12_dad_comfort.png", xsize=1280, ysize=720)
+
+## 关卡8 剧情分镜
+image l8_bedroom = Transform("images/l8_00_bedroom.png", xsize=1280, ysize=720)
+image l8_shop = Transform("images/l8_01_shop.png", xsize=1280, ysize=720)
+image l8_report = Transform("images/l8_02_report.png", xsize=1280, ysize=720)
+image l8_goodreviews = Transform("images/l8_03_goodreviews.png", xsize=1280, ysize=720)
+image l8_ask_mom = Transform("images/l8_04_ask_mom.png", xsize=1280, ysize=720)
+image l8_transfer50 = Transform("images/l8_05_transfer50.png", xsize=1280, ysize=720)
+image l8_fullpayment = Transform("images/l8_06_fullpayment.png", xsize=1280, ysize=720)
+image l8_activate = Transform("images/l8_07_activate.png", xsize=1280, ysize=720)
+image l8_partial100 = Transform("images/l8_08_partial100.png", xsize=1280, ysize=720)
+image l8_fees650 = Transform("images/l8_09_fees650.png", xsize=1280, ysize=720)
+image l8_blocked = Transform("images/l8_10_blocked.png", xsize=1280, ysize=720)
 
 ## 关卡13 剧情分镜
 image l13_game_night = Transform("images/l13_01_game_night.png", xsize=1280, ysize=720)
